@@ -1,0 +1,92 @@
+body {
+    height: 100%;
+    background: rgb(2, 2, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.bar {
+    width: 445px;
+    height: 30px;
+    border: 2px solid rgb(21, 212, 187);
+    
+    padding: 2px 2px 2px 2px;
+    display: flex;
+    gap: 4px;
+
+}
+
+
+.tile {
+    width: 14px;
+    height: auto;
+    background-color: rgb(21, 212, 187);
+}
+
+
+
+.number-container span {
+    color: rgb(21, 212, 187);
+    display: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.num-progress {
+    font-size: 40px;
+
+
+}
+
+#percent {
+    font-size: 30px;
+}
+
+#complete {
+    display: none;
+    color: rgb(21, 212, 187);
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.number-container {
+    width: 200px;
+    height: 100px;
+}
+
+
+.start-button {
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(21, 212, 187);
+    color: rgb(21, 212, 187);
+    cursor: pointer;
+    
+}
+
+
+.start-button:hover {
+    background-color: rgb(9, 4, 51);
+}
